@@ -22,5 +22,5 @@ WriteMakefile(
         #'Foo::Bar::Module' => 5.0401,
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
-    clean => { FILES => 'Mojolicious-Plugin-OAuth2-Che-*' },
+    ###clean => { FILES => 'Mojolicious-Plugin-OAuth2-Che-*' },
 );
