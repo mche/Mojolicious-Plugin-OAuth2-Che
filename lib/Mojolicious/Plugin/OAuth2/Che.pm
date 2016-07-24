@@ -86,7 +86,7 @@ sub _process_tx {
 
 Доброго всем
 
-=head1 Mojolicious::Plugin::RoutesAuthDBI
+=head1 Mojolicious::Plugin::OAuth2::Che
 
 ¡ ¡ ¡ ALL GLORY TO GLORIA ! ! !
 
