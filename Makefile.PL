@@ -18,8 +18,8 @@ WriteMakefile(
         'Test::More' => 0,
     },
     PREREQ_PM => {
-        #'ABC'              => 1.6,
-        #'Foo::Bar::Module' => 5.0401,
+        'Mojolicious'=>6.00,
+        'Mojolicious::Plugin::OAuth2'=>1.29,
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     ###clean => { FILES => 'Mojolicious-Plugin-OAuth2-Che-*' },
