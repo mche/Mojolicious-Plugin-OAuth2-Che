@@ -1,6 +1,7 @@
 package Mojolicious::Plugin::OAuth2::Che;
 
 use Mojo::Base 'Mojolicious::Plugin::OAuth2';
+use Carp 'croak';
 
 sub register {
   my ($self, $app, $config) = @_;
